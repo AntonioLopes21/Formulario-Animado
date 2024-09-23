@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset class="campos" name="Login">
+            
+            <h1>CADASTRO DE FÃ</h1>
+            <label for="name">Nome</label>
+            <input type="text" class="login" placeholder="Digite aqui o seu nome">
+            <label for="Senha">Senha</label>
+            <input type="password" class="login" placeholder="Digite a sua senha">
+            <button class="btn-submit" type="submit" onclick="clicarBotao()">Acessar</button>
+            <label for="textarea">Caso tenha alguma dúvida digite aqui:</label>
+            <textarea name="AreaText" id="campoTexto" cols="20" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset class="campos">
+            Gênero
+            <div class="sexo">
+                <label for="">Masculino</label>
+                <input type="radio" name="opcao2" id="">
+                <label for="">Feminino</label>
+                <input type="radio" name="opcao2" id="">
+            </div>
+        </fieldset>
+
+        <fieldset class="campos">
+            <div class="inputs">
+
+                <input type="email">
+                <input type="number">
+                <label for="name">Data do ocorrido:</label>
+                <input type="date">
+                <input type="text" placeholder="Qual foi seu problema?">
+                <label for="name">Envie a imagen do seu problema</label>
+                <div class="arquivo">
+                    <input type="file">
+                    <!-- <input type="image"> -->
+                </div>
+    </form>
+    </fieldset>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
